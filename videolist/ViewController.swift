@@ -32,7 +32,9 @@ class ViewController: UIViewController {
         playVideo()
 
      }
-    
+//    git remote remove origin
+//    git remote add origin https://[TOKEN]@github.com/[USER]/[REPO]
+//    git push
     
     private func playVideo() {
             guard let path = Bundle.main.path(forResource: "remix", ofType:"mp4") else {
